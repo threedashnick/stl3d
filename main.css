@@ -1,0 +1,28 @@
+p {
+  color: blue;
+  font-weight: bold;
+  display: inline; /*  свойство display . display: block начинается с новой строки и занимает всю ширину , display: inline начинается в любом месте и занимает столько ширины, сколько нужно для помещения содержания */
+}
+/* стиль для всех абзацев приоритет 1/3 */
+
+#user {
+  font-weight: normal;
+  font-size: 10px;
+  display: inline-block;
+  background-color: #39CCCC;
+  width: 100px;
+  height: 70px;
+  padding-left: 5px;
+  padding-top: 10px;
+  
+  border-top: 8px solid #001f3f;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+/* стиль для всех элементов где в открывающем тэге указан ID " id="user" ", приоритет 3/3 */
+
+.user {
+  font-weight: normal;
+  font-size: 20px;
+}
+/* стиль для всех элементов где в открывающем тэге указан class " class="user" ", приоритет 2/3 */
