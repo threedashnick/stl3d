@@ -2,7 +2,9 @@ p {
   color: blue;
   font-weight: bold;
   display: inline; /*  свойство display . display: block начинается с новой строки и занимает всю ширину , display: inline начинается в любом месте и занимает столько ширины, сколько нужно для помещения содержания */
+  border-bottom: 5px solid red;
 }
+
 /* стиль для всех абзацев приоритет 1/3 */
 
 #user {
@@ -16,8 +18,10 @@ p {
   padding-top: 10px;
   
   border-top: 8px solid #001f3f;
-  margin-left: 15px;
-  margin-top: 15px;
+  margin-left: 15px; /* отступ слева */
+  margin-top: 15px; /* отступ сверху */
+  margin-right: 15px; /* отступ справа */
+  margin-bottom: 15px; /* отступ снизу */
 }
 /* стиль для всех элементов где в открывающем тэге указан ID " id="user" ", приоритет 3/3 */
 
