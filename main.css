@@ -24,6 +24,12 @@ h1#article-title {
 }
 /* все элементы H1 с стилем article-title  */
 
+h1, h2, h3 {
+  font-weight: 400;
+  margin: 0;
+}
+/* можно через запятую сразу для нескольких указывать  */
+
 
 #user {
   font-weight: normal;
