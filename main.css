@@ -2,9 +2,8 @@ p {
   color: blue;
   font-weight: bold;
   display: inline; /*  свойство display . display: block начинается с новой строки и занимает всю ширину , display: inline начинается в любом месте и занимает столько ширины, сколько нужно для помещения содержания */
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid red; /* отбивочная линия (граница) снизу */
 }
-
 /* стиль для всех абзацев приоритет 1/3 */
 
 #user {
