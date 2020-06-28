@@ -4,16 +4,19 @@ body {
 }
 
 li {
-  padding:11px;
-  margin: 11px;
-  border: 11px;
+  padding:2px;
+  margin: 2px;
+  border: 2px;
 }
 
 p {
+  padding:11px;
+  margin: 11px;
+  border: 11px;
   color: blue;
   font-weight: bold;
   display: inline; /*  свойство display . display: block начинается с новой строки и занимает всю ширину , display: inline начинается в любом месте и занимает столько ширины, сколько нужно для помещения содержания */
-  border-bottom: 5px solid red; /* отбивочная линия (граница) снизу */
+  border-bottom: 1px solid red; /* отбивочная линия (граница) снизу */
   align-content: center; /* выравнивание по центру */
 }
 /* стиль для всех абзацев приоритет 1/3 */
