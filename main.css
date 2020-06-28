@@ -9,6 +9,12 @@ li {
   border: 2px;
 }
 
+.article {
+  padding:2px;
+  margin: 2px;
+  border: 2px;
+}
+
 p {
   padding:11px;
   margin: 11px;
