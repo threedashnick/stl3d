@@ -3,6 +3,12 @@ body {
   max-width: 1000px; /* limit width */
 }
 
+li {
+  padding:11px;
+  margin: 11px;
+  border: 11px;
+}
+
 p {
   color: blue;
   font-weight: bold;
